@@ -18,5 +18,9 @@ echo
 
 scalafmt --version
 
+echo
+
+echo '"scalafmt" is now on the path'
+
 # remove yourself
 rm $0
