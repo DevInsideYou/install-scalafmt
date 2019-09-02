@@ -4,15 +4,15 @@
 # Installs [Scalafmt CLI 2.12:2.0.0](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
-wget -q https://raw.githubusercontent.com/DevInsideYou/install-scalafmt-cli/master/install-scalafmt-cli.sh
-sudo chmod +x install-scalafmt-cli.sh && ./install-scalafmt-cli.sh
+wget -q https://script.install.devinsideyou.com/scalafmt-cli
+sudo chmod +x scalafmt-cli && ./scalafmt-cli
 ```
 
 # Installs [Scalafmt CLI](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/) with version set manually to [2.12:2.0.0](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli)
 
 ```bash
-wget -q https://raw.githubusercontent.com/DevInsideYou/install-scalafmt-cli/master/install-scalafmt-cli.sh
-sudo chmod +x install-scalafmt-cli.sh && ./install-scalafmt-cli.sh 2.12 2.0.0
+wget -q https://script.install.devinsideyou.com/scalafmt-cli
+sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.12 2.0.0
 ```
 
 ### Runtime Dependencies:
