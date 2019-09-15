@@ -1,18 +1,25 @@
 ### Have these installed before you start:
 * [Coursier CLI](https://github.com/DevInsideYou/install-coursier-cli)
 
-# Installs [Scalafmt CLI 2.12:2.0.0](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [Scalafmt CLI 2.12:2.0.1](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
 sudo chmod +x scalafmt-cli && ./scalafmt-cli
 ```
 
-# Installs [Scalafmt CLI](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/) with version set manually to [2.12:2.0.0](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli)
+# Specify [Scala version](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) manually [optional]
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
-sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.12 2.0.0
+sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.12
+```
+
+# Specify [both versions](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) manually [optional]
+
+```bash
+wget -q https://script.install.devinsideyou.com/scalafmt-cli
+sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.12 2.0.1
 ```
 
 ### Runtime Dependencies:

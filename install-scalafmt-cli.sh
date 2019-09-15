@@ -1,11 +1,16 @@
 #!/bin/bash
 
-if [ "$1" == "" ]; then
-    SCALA_VERSION="2.12"
-    VERSION="2.0.0"
-else
+FALLBACK_VERSION="2.0.1"
+
+if [ "$1" != "" ] && [ "$2" != "" ]; then
     SCALA_VERSION="$1"
     VERSION="$2"
+elif [ "$1" != "" ]; then
+    SCALA_VERSION="$1"
+    VERSION=$FALLBACK_VERSION
+else
+    SCALA_VERSION="2.12"
+    VERSION=$FALLBACK_VERSION
 fi
 
 # install scalafmt
