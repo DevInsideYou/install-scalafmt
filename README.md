@@ -8,14 +8,14 @@ wget -q https://script.install.devinsideyou.com/scalafmt-cli
 sudo chmod +x scalafmt-cli && ./scalafmt-cli
 ```
 
-# Specify [Scala version](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) manually [optional]
+# Specifies [Scala version](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) (optional)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
 sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.12
 ```
 
-# Specify [both versions](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) manually [optional]
+# Specifies [both versions](https://search.maven.org/search?q=g:org.scalameta%20scalafmt-cli) (optional)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
