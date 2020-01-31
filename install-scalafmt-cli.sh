@@ -1,6 +1,9 @@
 #!/bin/bash
 
-FALLBACK_VERSION="2.0.1"
+# remove yourself
+rm $0
+
+FALLBACK_VERSION="2.3.2"
 
 if [ "$1" != "" ] && [ "$2" != "" ]; then
     SCALA_VERSION="$1"
@@ -20,12 +23,7 @@ sudo coursier bootstrap org.scalameta:scalafmt-cli_$SCALA_VERSION:$VERSION \
   -f --standalone --main org.scalafmt.cli.Cli
 
 echo
-
 scalafmt --version
 
 echo
-
 echo '"scalafmt" is now on the path'
-
-# remove yourself
-rm $0
