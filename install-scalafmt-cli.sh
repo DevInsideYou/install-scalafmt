@@ -3,7 +3,7 @@
 # remove yourself
 rm $0
 
-FALLBACK_VERSION="2.6.3"
+FALLBACK_VERSION="2.6.4"
 FALLBACK_SCALA_VERSION="2.13"
 
 if [ "$1" != "" ] && [ "$2" != "" ]; then
