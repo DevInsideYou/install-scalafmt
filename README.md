@@ -1,7 +1,7 @@
 ### Have these installed before you start:
 * [Coursier CLI](https://github.com/DevInsideYou/install-coursier-cli)
 
-# Installs [Scalafmt CLI 2.13:2.7.0](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [Scalafmt CLI 2.13:2.7.1](https://scalameta.org/scalafmt/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
@@ -19,7 +19,7 @@ sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.13
 
 ```bash
 wget -q https://script.install.devinsideyou.com/scalafmt-cli
-sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.13 2.7.0
+sudo chmod +x scalafmt-cli && ./scalafmt-cli 2.13 2.7.1
 ```
 
 ### Runtime Dependencies:
